@@ -1,0 +1,20 @@
+snippet t "A simple HTML tag" b
+<$1>
+    
+</${1/(\w+).*/$1/}>
+endsnippet
+
+snippet user "add time"
+`echo $USER`
+endsnippet
+
+global !p
+def
+endglobal
+
+
+snippet path "Description" !b
+`!p import time
+snip.rv = time.gmtime()[0]
+`
+endsnippet

@@ -28,3 +28,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+"tab manitulation
+map <F7> :tabr<CR>
+map <F8> :tabl<CR>

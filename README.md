@@ -10,8 +10,8 @@ Creat costumized snippets
 :UltiSnipsEdit
 ```
 ##Some tips
-open files split horizontally
+open files in split windows
 ```
-$vim -o file1.txt file2.txt file3.txt #open files split horizontally
-$vim -O file1.txt file2.txt file3.txt #open files split vertically
+$vim -o file1.txt file2.txt file3.txt   #open files split horizontally
+$vim -O file1.txt file2.txt file3.txt   #open files split vertically
 ```

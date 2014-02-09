@@ -1,20 +1,15 @@
-snippet t "A simple HTML tag" b
+snippet t "empty html tag"
 <$1>
-    
+  $2
 </${1/(\w+).*/$1/}>
 endsnippet
 
-snippet user "add time"
-`echo $USER`
+snippet it "inline empty html tag"
+<$1>$2</${1/(\w+)\s.*/$1/}>
 endsnippet
 
-global !p
-def
-endglobal
-
-
-snippet path "Description" !b
-`!p import time
-snip.rv = time.gmtime()[0]
-`
+snippet tc "tag with class" 
+<$1 class="$2">
+  $3
+</$1>
 endsnippet

@@ -12,6 +12,15 @@ set t_Co=256
 let g:Powerline_symbols = 'fancy' " If its weird, try 'unicode'
 let g:ragtag_global_maps = 1 
 
+" detect the type of file
+filetype on
+
+" load filetype plugins
+filetype plugin on
+
+" load indent files for specific filetypes
+filetype indent on
+
 "Nerdtree toggle
 map <F2> :NERDTreeToggle<CR>
 
@@ -32,3 +41,7 @@ set expandtab
 "tab manitulation
 map <F7> :tabr<CR>
 map <F8> :tabl<CR>
+
+"auto indent
+set ai
+set pastetoggle=<F3>

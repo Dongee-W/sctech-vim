@@ -45,3 +45,5 @@ map <F8> :tabl<CR>
 "auto indent
 set ai
 set pastetoggle=<F3>
+
+set backspace=2
